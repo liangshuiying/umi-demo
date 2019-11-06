@@ -30,6 +30,12 @@ export default [
               component: './Welcome',
             },
             {
+              path: '/product',
+              icon: 'crown',
+              name: '产品页',
+              component: './Product/Product',
+            },
+            {
               path: '/admin',
               name: 'admin管理员',
               icon: 'crown',
